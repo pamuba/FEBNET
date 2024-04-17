@@ -94,20 +94,20 @@ namespace _30March
 
 
 
-                
-                //Console.WriteLine($"{Thread.CurrentThread.Name} trying to acquire the lock on {FromAccount.ID}");
-                //Console.WriteLine($"{Thread.CurrentThread.Name} acquired the lock on {FromAccount.ID}");
-                //Console.WriteLine($"{Thread.CurrentThread.Name}  Implementing the Transaction");
-                //Thread.Sleep(1000);
-                //Console.WriteLine($"{Thread.CurrentThread.Name} trying to acquire the lock on {ToAccount.ID}");
 
-                //DeadLock.autoObj.WaitOne();
-            
-                //Console.WriteLine($"{Thread.CurrentThread.Name} acquired the lock on {ToAccount.ID}");
-                //Console.WriteLine("Amount Transferred: "+ Thread.CurrentThread.Name);
-                //FromAccount.WithdrawMoney(TransferAmoumt);
-                //ToAccount.DepositMoney(TransferAmoumt);
-            
+            //Console.WriteLine($"{Thread.CurrentThread.Name} trying to acquire the lock on {FromAccount.ID}");
+            //Console.WriteLine($"{Thread.CurrentThread.Name} acquired the lock on {FromAccount.ID}");
+            //Console.WriteLine($"{Thread.CurrentThread.Name}  Implementing the Transaction");
+            //Thread.Sleep(1000);
+            //Console.WriteLine($"{Thread.CurrentThread.Name} trying to acquire the lock on {ToAccount.ID}");
+
+            DeadLock.autoObj.WaitOne();
+
+            Console.WriteLine($"{Thread.CurrentThread.Name} acquired the lock on {ToAccount.ID}");
+            Console.WriteLine("Amount Transferred: " + Thread.CurrentThread.Name);
+            FromAccount.WithdrawMoney(TransferAmoumt);
+            ToAccount.DepositMoney(TransferAmoumt);
+
         }
 
     }
@@ -135,7 +135,9 @@ namespace _30March
             thread1.Start();
             thread2.Start();
 
+            Console.ReadLine();
             autoObj.Set();
+            Console.ReadLine();
             autoObj.Set();
 
             //thread1.Join();
