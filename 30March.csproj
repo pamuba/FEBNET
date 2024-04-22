@@ -7,7 +7,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
-    <StartupObject>_30March.TaskExHandling</StartupObject>
+    <StartupObject>_30March2.MutexTask</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
