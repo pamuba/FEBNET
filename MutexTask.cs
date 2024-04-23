@@ -83,8 +83,8 @@ namespace _30March2
                     }
                 }));
             }
-            Task.WaitAll(tasks.ToArray());
 
+            Task.WaitAll(tasks.ToArray());
             Console.WriteLine($"Final balance: {ba.Balance}");
             Console.WriteLine($"Final balance: {ba2.Balance}");
 
