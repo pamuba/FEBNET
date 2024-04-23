@@ -24,6 +24,15 @@ namespace _30March
                     Console.WriteLine($"Exit read lock, x={x}");
                 }));
             }
+            try {
+                Task.WaitAll(tasks.ToArray());
+            }
+            catch (AggregateException ag) {
+                ag.Handle(e => {
+                    Console.WriteLine(e);
+                    return true;
+                });
+            }
             Console.WriteLine("Main Ends");
         }
 
