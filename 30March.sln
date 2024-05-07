@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassLibrary1", "..\ClassLi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NETDEMOS", "..\..\..\may\netdemos\NETDEMOS\NETDEMOS.csproj", "{538B24A4-F621-4AB4-88F7-48CE3B34C7BD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NETDEMO_RAZOR", "..\..\NETDEMO_RAZOR\NETDEMO_RAZOR\NETDEMO_RAZOR.csproj", "{C56D1A66-2A8D-400E-BECC-B460FB6E2B4C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{538B24A4-F621-4AB4-88F7-48CE3B34C7BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{538B24A4-F621-4AB4-88F7-48CE3B34C7BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{538B24A4-F621-4AB4-88F7-48CE3B34C7BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C56D1A66-2A8D-400E-BECC-B460FB6E2B4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C56D1A66-2A8D-400E-BECC-B460FB6E2B4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C56D1A66-2A8D-400E-BECC-B460FB6E2B4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C56D1A66-2A8D-400E-BECC-B460FB6E2B4C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
