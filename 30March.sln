@@ -13,7 +13,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NETDEMOS", "..\..\..\may\ne
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NETDEMO_RAZOR", "..\..\NETDEMO_RAZOR\NETDEMO_RAZOR\NETDEMO_RAZOR.csproj", "{C56D1A66-2A8D-400E-BECC-B460FB6E2B4C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiddlewareDemo", "..\..\MiddlewareDemo\MiddlewareDemo\MiddlewareDemo.csproj", "{E7E4590B-0A3D-4EF2-9FB8-20B97494B7B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiddlewareDemo", "..\..\MiddlewareDemo\MiddlewareDemo\MiddlewareDemo.csproj", "{E7E4590B-0A3D-4EF2-9FB8-20B97494B7B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoutingDemo", "..\..\RoutingDemo\RoutingDemo\RoutingDemo.csproj", "{42DBE866-4F39-4033-83E0-BA60057B0D14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticFilesDemos", "..\StaticFilesDemos\StaticFilesDemos.csproj", "{1843D28B-7607-409B-8394-BF2DA850400F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControllersDemo", "..\..\ControllersDemo\ControllersDemo\ControllersDemo.csproj", "{6050CC5A-18D3-462E-A527-6BB1618B2B4A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +51,18 @@ Global
 		{E7E4590B-0A3D-4EF2-9FB8-20B97494B7B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E7E4590B-0A3D-4EF2-9FB8-20B97494B7B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E7E4590B-0A3D-4EF2-9FB8-20B97494B7B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42DBE866-4F39-4033-83E0-BA60057B0D14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42DBE866-4F39-4033-83E0-BA60057B0D14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42DBE866-4F39-4033-83E0-BA60057B0D14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42DBE866-4F39-4033-83E0-BA60057B0D14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1843D28B-7607-409B-8394-BF2DA850400F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1843D28B-7607-409B-8394-BF2DA850400F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1843D28B-7607-409B-8394-BF2DA850400F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1843D28B-7607-409B-8394-BF2DA850400F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6050CC5A-18D3-462E-A527-6BB1618B2B4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6050CC5A-18D3-462E-A527-6BB1618B2B4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6050CC5A-18D3-462E-A527-6BB1618B2B4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6050CC5A-18D3-462E-A527-6BB1618B2B4A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
